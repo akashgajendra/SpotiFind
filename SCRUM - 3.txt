@@ -1,0 +1,50 @@
+﻿SCRUM - 3 (Saturday - 6th Nov)
+
+
+
+
+Akash Gajendra:
+Yesterday: Started work on Spotify API
+Today: Working on integrating with Spotify API and receive data
+Challenges: 400 ERRORS popping up - API connectivity issues 
+
+
+
+
+Jordan Hassmann:
+* Yesterday: 
+   * Cleaned up UI login screen and console skeleton
+   * Set up real-time listening to Groups collection and users subcollections 
+* Blockers: 
+   * None
+* Today: 
+   * Add Signup page back into the Login UI
+   * Set up firebase real time listening for Groups Messages
+   * Set up firebase real time listening for Friends collection 
+
+
+Joshua Mo:
+* Yesterday: Worked on user card in personal project and learned more about Firebase implementation
+   * Blockers: None
+   * Today: Finish user card
+
+
+Nathan Wilke:
+* Yesterday:
+    * Get user authentification from spotify api working
+* Blockers: 
+    * Trying to learn how to output data to react
+* Today: 
+    * Output the data retrieved from spotify to the front end
+  
+
+
+
+
+Sehun Joo:
+* Yesterday:
+   * Edited firebase database schema
+* Blockers:
+   * None
+* Today:
+   *  Added pages for Groups

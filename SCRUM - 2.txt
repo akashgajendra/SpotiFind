@@ -1,0 +1,36 @@
+﻿SCRUM - 2 (Friday - 5th Nov)
+
+
+Akash
+* Yesterday: Finished auth and pushed to Master
+* Today: Looking into Apple API, doing documentation work
+* Challenge: None at the moment
+
+
+Nathan
+* Yesterday: Fixed my local NPM version so that I could run without any compatibility issues, continued research into connecting to spotify user api in react
+* Today: Working on getting the spotify user api working on react, and getting user data after authentication
+* Challenge: Getting the spotify user api to work on react
+
+
+Jordan
+* Yesterday: 
+   * Converted Navbar to a page wrapper with conditional rendering based on authentication
+   * Implemented the Groups Drawer and main console skeleton
+   * Designed method to listen to subcollections 
+* Issues: None
+* Today: Finish implementing Redux store for groups with user subcollections that updates in real time
+
+
+Joshua
+* Yesterday: Started researching REACT and Firebase and setup my branch of github project
+* Today: Looking more into potential database designs for users and social features like friends lists, getting experience with firebase by creating mini-projects
+* Issues: None
+* Challenge: Creating user cards that are connected to Firebase and can be easily integrated into the overall UI
+
+
+Sehun
+* Yesterday: Created database schemas in firebase for groups including users and chat messages
+* Today: Look into easy ways to make chat messages appear on the UI, design the UI, learn to work with the github client
+* Issues: Github client is having trouble with the integrations for enterprise
+* Challenge: Implementing and creating the chat UI for the groups

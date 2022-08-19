@@ -1,0 +1,59 @@
+﻿SCRUM - 1 (Thursday - 4th Nov)
+
+
+
+
+Nathan Wilke:
+* Yesterday: 
+   * Developed small scale Spotify connections based on port communications and identified other potential music streaming APIs
+* Blockers: 
+   * Having difficult time implementing Spotify API in React project
+* Today:
+   * Attempt to configure Spotify API in React project 
+
+
+
+
+Akash Gajendra:
+* Yesterday: 
+   * Worked on Firebase Authentication and login for backend and frontend UI
+   * Created Login/Signup pages, components, and UI elements
+   * Created ability for user to login and sign up
+* Blockers: 
+   * None
+* Today:
+   * Help Nathan integrate Spotify API
+
+
+
+
+Jordan Hassmann:
+* Yesterday: 
+   * Setup up technologies like React project, Firebase backend, and Github Project
+   * Integrate necessary libraries: Redux, Material-UI, Firebase, etc.
+* Blockers:
+   * None        
+* Today:
+   * Work on integrating real time Firebase listeners into the React project
+
+
+
+
+Joshua Mo:
+* Yesterday: 
+   * Began research into React and Firebase for identifying best schemas 
+* Blockers:
+   * None
+* Today:
+   * Work on creating a user profile card
+
+
+
+
+Sehun Joo:
+* Yesterday: 
+   * Began research into React and Firebase for identifying best schemas
+* Blockers:
+   * None
+* Today:
+   * Begin designing Groups collection in Firebase backend
