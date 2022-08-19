@@ -1,0 +1,92 @@
+.tutorial-header {
+   font-family: 'Oswald', sans-serif;
+   font-size: 3em;
+   font-weight: 300;
+}
+
+.tutorial-container {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   overflow-y: scroll;
+   height: 100vh;
+
+   &::-webkit-scrollbar {
+      width: 0px !important;
+   }
+}
+
+.section-header {
+   font-family: 'Oswald', sans-serif;
+   font-size: 1.4em;
+   font-weight: 200;
+}
+
+.exit {
+   position: fixed;
+   top: 40px;
+   right: 40px;
+}
+
+.section {
+   margin-bottom: 30px;
+   position: relative;
+   width: fit-content;
+   max-width: 60%;
+   display: flex;
+
+
+   &:nth-child(2n) {
+      text-align: end;
+   }
+
+   &:nth-child(2n + 1) {
+      text-align: start;
+   }
+
+   & .example {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 30px 60px;
+   }
+}
+
+
+
+.extended-divider {
+   width: 0%;
+   margin-bottom: 50px;
+   border-bottom: 1px solid #fff;
+   animation: 0.8s extend forwards ease;
+   animation-delay: 0.6s;
+}
+
+@keyframes extend {
+   from {
+      width: 0%;
+   }
+   to {
+      width: 80%;
+   }
+}
+
+@media screen and (max-width: 1000px) {
+   .section {
+      max-width: 90%;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .section {
+      flex-direction: column;
+      
+      & * {
+         text-align: center;
+      }
+   }
+
+   .section:nth-child(2n) {
+      flex-direction: column-reverse;
+   }
+}

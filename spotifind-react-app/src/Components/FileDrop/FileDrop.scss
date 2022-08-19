@@ -1,0 +1,87 @@
+
+
+
+
+.box-dragndrop,
+.box-success,
+.box-file {
+  display: none;
+}
+
+.box-dragndrop {
+  display: flex;
+  text-align: center;
+}
+
+
+.box {
+  font-size: 1.25rem;
+  background-color: #e9e9e9;
+  position: relative;
+  padding: 60px 20px;
+  color: #0f3c4b;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+
+  .od-icon {
+    margin-bottom: 50px;
+    color: #1e5a99;
+  }
+
+  label {
+    cursor: pointer;
+  }
+
+  .box-error {
+    margin-top: 20px;
+  }
+}
+
+.box.has-advanced-upload {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+}
+
+.box.has-advanced-upload .box-dragndrop {
+  display: inline;
+}
+
+.box-uploading {
+  margin-top: 20px;
+}
+
+.box.is-dragover {
+  outline-offset: -20px;
+  outline-color: #c8dadf;
+  background-color: #fff;
+  transform: scale(0.95);
+  transition: 0.5s;
+}
+
+
+.js .box-file {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.box-button {
+  border: 0;
+  font-weight: 700;
+  color: #e5edf1;
+  background-color: #39bfd3;
+  display: block;
+  padding: 8px 16px;
+  margin: 40px auto 0;
+}
+
+
+

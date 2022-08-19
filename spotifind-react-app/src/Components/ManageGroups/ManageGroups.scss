@@ -1,0 +1,33 @@
+
+
+.manage-group-option:nth-child(1) {
+
+   &:hover {
+      color: #00e676;
+      background-color: rgba(0, 230, 118, 0.04) !important;
+   }
+}
+
+.manage-group-option:nth-child(3) {
+
+   &:hover {
+      color: #00b0ff;
+      background-color: rgba(0, 174, 255, 0.04);
+   }
+}
+
+.manage-group-option:nth-child(5) {
+   
+   &:hover {
+      color: #ff9100;
+      background-color: rgba(255, 145, 0, 0.04);
+   }
+}
+
+.manage-group-option:nth-child(7) {
+   
+   &:hover {
+      color: #e53935;
+      background-color: rgba(229, 56, 53, 0.04);
+   }
+}

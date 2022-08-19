@@ -1,0 +1,29 @@
+
+
+.navbar {
+   background-color: rgb(115, 115, 252);
+   padding: 40px;
+   z-index: 100;
+}
+
+.groups::-webkit-scrollbar {
+   width: 0px;
+}
+
+.groups::-webkit-scrollbar-thumb {
+   background-color: lightgrey;
+   border-radius: 4px;
+}
+
+
+.explore-groups-dialog .MuiDialogContent-root::-webkit-scrollbar {
+   width: 0 !important;
+}
+
+#free-solo-2-demo * {
+   border: none !important;
+}
+
+#toolbar * {
+   border: none !important;
+}
